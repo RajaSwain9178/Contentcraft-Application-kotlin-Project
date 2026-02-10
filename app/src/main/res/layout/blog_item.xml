@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="210dp"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="9dp"
+    app:cardElevation="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="12dp">
+
+        <!-- Blog Heading -->
+        <TextView
+            android:id="@+id/heading2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="14dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:maxLines="2"
+            android:text="@string/please_start_writing_git_commits"
+            android:textColor="@color/blue"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/username2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Profile Image -->
+
+        <!-- Username -->
+        <TextView
+            android:id="@+id/username2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_thin"
+            android:text="@string/new_blogger"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Date -->
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat_mediumitalic"
+            android:text="@string/aug_23_2025"
+            android:textColor="@color/red"
+            app:layout_constraintTop_toBottomOf="@id/username2"
+            app:layout_constraintEnd_toEndOf="@id/username2" />
+
+        <!-- Divider -->
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_marginTop="4dp"
+            android:background="?android:attr/listDivider"
+            app:layout_constraintTop_toBottomOf="@id/date2"
+            app:layout_constraintStart_toStartOf="@id/heading2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <!-- Blog Content -->
+        <TextView
+            android:id="@+id/post2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/montserrat_light"
+            android:lineHeight="20sp"
+            android:maxLines="4"
+            android:ellipsize="end"
+            android:text="@string/item0"
+            android:textColor="@color/black"
+            app:layout_constraintTop_toBottomOf="@id/divider2"
+            app:layout_constraintStart_toStartOf="@id/divider2"
+            app:layout_constraintEnd_toEndOf="@id/divider2" />
+
+        <!-- Read More Button -->
+        <Button
+            android:id="@+id/readmore2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text="@string/read_more"
+            app:cornerRadius="9dp"
+            app:layout_constraintTop_toBottomOf="@id/post2"
+            app:layout_constraintStart_toStartOf="@id/post2" />
+
+        <!-- Like Count -->
+        <TextView
+            android:id="@+id/likeCount2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:fontFamily="@font/montserrat_semibold"
+            android:text="@string/_20"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:layout_constraintTop_toTopOf="@id/readmore2"
+            app:layout_constraintBottom_toBottomOf="@id/readmore2"
+            app:layout_constraintStart_toEndOf="@id/readmore2" />
+
+        <!-- Like Button -->
+        <ImageButton
+            android:id="@+id/like2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/like_button"
+            app:srcCompat="@drawable/black_heart"
+            app:layout_constraintTop_toTopOf="@id/likeCount2"
+            app:layout_constraintBottom_toBottomOf="@id/likeCount2"
+            app:layout_constraintStart_toEndOf="@id/likeCount2" />
+
+        <!-- Save Button -->
+        <ImageButton
+            android:id="@+id/likesave2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/save_button"
+            app:srcCompat="@drawable/red_save"
+            app:layout_constraintTop_toTopOf="@id/like2"
+            app:layout_constraintBottom_toBottomOf="@id/like2"
+            app:layout_constraintStart_toEndOf="@id/like2"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

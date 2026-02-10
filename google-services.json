@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "600605781821",
+    "project_id": "blog-application-568a1",
+    "firebase_url": "https://blog-application-568a1-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "storage_bucket": "blog-application-568a1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600605781821:android:54efb6801fa511f3455f54",
+        "android_client_info": {
+          "package_name": "com.example.blogapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqlNz__z10T_aNrSFYH0Xk8U05AgI2iys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

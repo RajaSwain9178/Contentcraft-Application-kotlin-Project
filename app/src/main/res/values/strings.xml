@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Blog Application</string>
+    <string name="register">Register</string>
+    <string name="new_here">New Here ?</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="blog">Blog.</string>
+    <string name="share_your_story_nwith_us">Share your story \nwith us</string>
+    <string name="enter_your_password1">Enter your password</string>
+    <string name="enter_your_email1">Enter your email</string>
+    <string name="register1">Register</string>
+    <string name="new_here1">New Here ?</string>
+    <string name="login1">Login</string>
+    <string name="share_your_story_nwith_us1">Share your story \nwith us</string>
+    <string name="blog1">Blog.</string>
+    <string name="desing_by_n_splasher1">Desing by\n splasher</string>
+    <string name="please_start_writing_git_commits">Please start writing Git Commits</string>
+    <string name="new_blogger">New Blogger</string>
+    <string name="item0">I real recently read a helpful article on Hashnode by Simon Egersand titled. Write Git Commit Messages Your Colleagues Will Love, and it inspired me to dive a little deeper into understanding what makes a Git commit good or bad.</string>
+    <string name="like_button">Like button</string>
+    <string name="save_button">Save button</string>
+    <string name="read_more">Read More</string>
+    <string name="aug_23_2025">Aug 23, 2025</string>
+    <string name="save_article_button">Save article button</string>
+    <string name="_20">20</string>
+    <string name="submit">Submit</string>
+    <string name="blog_title">Blog Title</string>
+    <string name="blog_description">Blog Description</string>
+</resources>
